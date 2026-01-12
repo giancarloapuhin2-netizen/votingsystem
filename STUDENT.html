@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head> 
+
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <title>Student</title>
+    <link rel="stylesheet" href="studentdesign.css">
+</head>
+<body>
+  <div class="rectangle rect-3"><div>
+    <div class="rectangle rect-2"></div>
+    <img src="Arellano_University_New_Logo.png" width="50" height="50" />
+    <h4>ARRELLANO UNIVERSITY JOSERIZAL CAMPUS</h4>
+  </div>
+<style>
+  body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 10vh;
+    }
+    .container {
+      text-align: center;
+    }
+  </style>
+  <div class="window">
+    <div class="rect">
+   <h2>STUDENT LOGIN</h2>
+  <form action="index.php" method="POST">
+  <label for="studentID">&nbsp;Student ID:</label>
+  <input type="text" id="student no." 
+   name="studentno" minlength="20" maxlength="20"
+   required placeholder="Enter your 20-digit Student NO.">
+       <br></br>
+       <label for="AdminPass"> &nbsp;&nbsp;Password:</label>
+      <input type="text" id="AdminPass" 
+       name="AdminPass" minlength="5" maxlength="30"
+       required placeholder="Enter Password">
+       <br>
+       <br>
+      <button href="homepage.html" type="submit"value="submit">LOG IN</button>
+       </form>
+        <a href="votingsystem.html">
+          <button type="submit">BACK</button></a>
+    </div>
+  </div>
+  <script src="student.php"></script>
+</body>
+</html>
